@@ -1,0 +1,29 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    "Bruno Ramalho"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ],
+      "dependencies": {}
+    }
+  }
+}
